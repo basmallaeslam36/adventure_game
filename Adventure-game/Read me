@@ -1,0 +1,31 @@
+README.md
+Python Game: Adventure Game
+This is a simple Python game called Adventure Game. The game is designed to be played on the command line interface.
+
+How to Play
+To start the game, navigate to the directory where the game is saved and run the following command:
+
+Copy
+python game.py
+Follow the instructions on the screen to play the game. The objective of the game is to explore the environment, make choices, and earn points to win the game.
+
+Dependencies
+This game requires Python 3.x to run. There are no additional dependencies required to play the game.
+
+Functions
+The game uses five functions:
+
+update_score: This function updates the score of the player.
+print_pause: This function prints a message and pauses for a few seconds.
+knock_on_door: This function is called when the player chooses to knock on the door of the house.
+enter_cave: This function is called when the player chooses to enter the cave.
+play_game: This function starts the game loop and controls the flow of the game.
+Game Loop
+The game loop starts when the play_game function is called. The loop continues until the player reaches the maximum score or chooses to quit the game. The loop consists of the following steps:
+
+Print the current score of the player.
+Ask the player to make a choice (knock on the door or enter the cave).
+Call the corresponding function based on the player's choice.
+Check the current score of the player.
+If the player has reached the maximum score, print a win message and end the loop.
+If the player has not reached the maximum score, repeat the loop.
